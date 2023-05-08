@@ -1,0 +1,58 @@
+ ul,
+ li {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+ }
+ 
+ .user-wrapper {
+     margin-top: 150px;
+ }
+ 
+ .user-wrapper h1 {
+     font-size: 20px;
+ }
+ 
+ .user-wrapper ul {
+     width: 400px;
+ }
+ 
+ .user-wrapper ul li {
+     width: 100%;
+     display: block;
+     padding: 10px;
+ }
+ 
+ .user-wrapper ul li input,
+ .user-wrapper ul li textarea {
+     border-radius: 5px;
+     border: 1px solid #c2c2c2;
+     width: 100%;
+     padding: 5px;
+     transition: border .5s;
+ }
+ 
+ .user-wrapper ul li.midbox input {
+     width: 30%;
+     float: left;
+     margin-right: 5%;
+ }
+ 
+ .user-wrapper ul li.midbox input.last {
+     margin-right: 0px;
+ }
+ 
+ .user-wrapper ul li textarea {
+     margin-top: 20px;
+ }
+ 
+ .user-wrapper ul li button {
+     background-color: #F2695C;
+     border: none;
+     width: 100%;
+     text-align: center;
+     padding: 15px 0px;
+     border-radius: 5px;
+     font-size: 18px;
+     color: white;
+ }
